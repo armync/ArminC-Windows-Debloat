@@ -34,7 +34,7 @@ The chosen options should be up to everyone's preference and according to the co
 Linux has become a <i>strong</i> alternative to Windows, especially in terms of customization. While recent Windows versions are often <b>bloated</b> and <b>overly simplified</b>, Linux interfaces like Cosmic, KDE, and Gnome keep improving with new features and fixes. Linux also enjoys growing support from communities and companies like Valve with their Steam Deck. App compatibility on Linux is largely on par with Windows, thanks to tools like Wine and Proton (excluding <i>certain</i> kernel-based anti-cheat games). Additionally, older applications that no longer work on Windows often run seamlessly on Linux.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="850%" height="85%">
 <br>
 <sub>KDE Plasma Desktop</sub>
 </p>
