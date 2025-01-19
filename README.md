@@ -1,3 +1,8 @@
+---
+title: Untitled
+
+---
+
 <h1 align="center">
   <br>
   <a href="https://github.com/ArmynC/ArminC-Windows-Debloat/archive/refs/heads/main.zip"><img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/arminc_windows_debloat.svg" alt="Windows Debloat"></a>
@@ -31,7 +36,7 @@ The chosen options should be up to everyone's preference and according to the co
 ---
 #### Short note
 
-Linux got as on par alternative to <i>Windows</i> in terms of customization, and more so as time goes by. The latest versions of Windows are sometimes very **cumbersome**, full of **bloat**, and forcefully **dumbed down**. By comparison, these **Linux** interfaces (Cosmic, KDE, Gnome and so on) are getting **better and better**, with increasingly new features and fixes. It is also worth noting that Linux is supported by more communities and corporations including **Valve** with their <i>Steam Deck</i>. Apps wise, the compatibility mostly matches the one of <i>Windows</i> via tools called Wine (Windows calls translation) and Proton (Wine gaming focused). It's also worth noting that if there's an older application that doesn't work anymore on Windows, it will mostly work here.
+Linux has become a <i>strong</i> alternative to Windows, especially in terms of customization. While recent Windows versions are often <b>bloated</b> and <b>overly simplified</b>, Linux interfaces like Cosmic, KDE, and Gnome keep improving with new features and fixes. Linux also enjoys growing support from communities and companies like Valve with their Steam Deck. App compatibility on Linux is largely on par with Windows, thanks to tools like Wine and Proton (excluding <i>certain</i> kernel-based anti-cheat games). Additionally, older applications that no longer work on Windows often run seamlessly on Linux.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/kde_plasma_6.png" width="60%" height="60%">
@@ -39,10 +44,33 @@ Linux got as on par alternative to <i>Windows</i> in terms of customization, and
 <sub>KDE Plasma Desktop</sub>
 </p>
 
-Some Linux variants, namely distributions, are as follows: <a href="https://linuxmint.com/">Linux Mint (Edge)</a>, by default isn't that complex or shiny but it is very stable, GUI oriented, and user friendly, plug and play type; <a href="https://pop.system76.com/">Pop!_OS</a>, it is distinct, elegant (Cosmic UI) and it is an easy experience, yet it is cautious about adopting zero-day updates; <a href="https://get.opensuse.org/">openSUSE Tumbleweed</a>, professionally backed, powerful, rock-stable and very intuitive on its own, up-to-date yet auto QA tested packages, has a lot of complex GUI tools but requires a little experience in tinkering it at first (e.g. enabling non open-source repositories if desired); <a href="https://fedoraproject.org/spins/kde/">Fedora</a>, professionally backed with a modern experience, early last-gen adopter so on edge cases it may be buggy; <a href="https://endeavouros.com/">EndeavourOS</a>, community based, made on top of a complex core (Arch), has some elementary UI tools such as installer and helper - mostly terminal centric, advanced users oriented; <a href="https://cachyos.org/">CachyOS</a>, small community, based on Arch too, snappy, implements custom optimizations and schedulers, due to its nature may be unstable at times.
+
+### Notable Linux Distributions  
+
+- **[Linux Mint (Edge)](https://linuxmint.com/):**
+  Stable, GUI-focused, user-friendly, and plug-and-play. While not flashy, it prioritizes simplicity and reliability.  
+
+- **[Bazzite](https://bazzite.gg/):**  
+  An atomic, immutable distro ideal for gaming and console-like setups. System changes are limited and revert with updates, ensuring reliability and consistency. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
+
+- **[Pop!_OS](https://pop.system76.com/):**  
+  Sleek and elegant with the Cosmic UI, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
+
+- **[openSUSE Tumbleweed](https://get.opensuse.org/):**  
+  Professionally backed, powerful, and intuitive with auto QA-tested, up-to-date packages. Though feature-rich with complex GUI tools, it requires some initial setup, such as enabling non-open-source repositories.  
+
+- **[Fedora](https://fedoraproject.org/spins/kde/):**  
+  Modern and professionally supported, it adopts the latest technologies early. However, this can lead to occasional edge-case bugs.  
+
+- **[EndeavourOS](https://endeavouros.com/):**  
+  Community-driven and based on Arch, featuring basic GUI tools like an installer and helper. Primarily terminal-centric and aimed at advanced users.  
+
+- **[CachyOS](https://cachyos.org/):**  
+  A lightweight Arch-based distro with custom optimizations and schedulers. While snappy, it may occasionally face stability issues due to its experimental nature.  
+
 
 > [!IMPORTANT]
-> Using Linux might be fair simple but you should have at least a minimal experience in following tutorials, as at times, the Terminal may help you because not everything is going to work as expected. It is likely to be used at least some times in the entire OS lifetime.
+> Using Linux can be relatively straightforward, but it's helpful to have some basic experience following tutorials. Occasionally, you'll need to use the Terminal, as not everything will work as expected. It’s likely that the Terminal will come in handy at least a few times during the lifespan of the operating system.
 
 > [!TIP]
 > Here, some simple and useful facts can be found:
@@ -50,6 +78,8 @@ Some Linux variants, namely distributions, are as follows: <a href="https://linu
 > https://www.reddit.com/r/linux_gaming/wiki/faq/
 > 
 > https://linux-gaming.kwindu.eu/
+>
+> https://www.youtube.com/@TheLinuxEXP/videos
 
 ---
 
@@ -108,7 +138,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 </p>
     
 <br>
-- <p>By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a> (<b>Recommended</b>). Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
+- <p>(<b>Recommended</b>) - By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a>. Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
     
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
@@ -177,12 +207,12 @@ If you are done with it, now you should prepare the operating system.
 The first thing on the list is to try and change the browser. **[Zen](https://github.com/zen-browser/desktop)** or unforked **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** are the most optimal variants, even speaking of *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
 
 ##### Other apps
-Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/)/ or even [PeaZip](https://peazip.github.io/) should do it. These are *open-source*.
+Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/) or even [PeaZip](https://peazip.github.io/) should do it. These are *open-source*.
 
-For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there are [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky has almost nearly protection module of its premium counterpart, and it is intelligent enough to **disable itself when resources are required**, such as during gaming.
+For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there are [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky includes most of the protection modules from its premium version and **intelligently disables** itself when resources are needed, like during gaming.
 
 ##### Updates
-Now, **check all available updates and drivers**, install them, and restart the computer. **Ensure** there are **no** remaining updates. It is **not advisable to disable** or avoid them.
+Optionally, **check all available updates and drivers**, install them, and restart the computer. **Ensure** there are **no** remaining updates. It is **not advisable to disable** or avoid them.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/update_check.png" width="50%" height="50%">
@@ -204,13 +234,15 @@ At times, the main (e.g. graphical) drivers **shouldn't be installed through Win
 If your computer has a compatible NVIDIA GPU, you could try [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), which is a tool for more **customisable capabilities**, **bloat-free** graphical drivers.
 
 <ol type="i">
-<li>Let it <b>auto-detect</b> the recommended drivers. You should double-check.</li>
+<li>In most cases, you can choose to <b>auto-detect</b> the recommended drivers. Alternatively, you can manually select the Studio drivers, which are more thoroughly tested and tailored for creators seeking a more stable environment.
+
+You can also install <b>NVCleanstall</b> on your PC to manage driver installations and receive update notifications.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_auto_detect.png" width="40%" height="40%">
 </p>
 
-<li>Select the <b>Recommended</b> components if desired. It depends on the type of computer and your preferences. For laptops, <b>Optimus</b> is somewhat required.</li>
+<li>Select the <b>Recommended</b> components if desired, based on your computer type and preferences. For laptops, the <b>Nvidia Platform Controllers and Framework</b> are required for TDP control and <i>Dynamic Boost</i>.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_components.png" width="40%" height="40%">
@@ -218,7 +250,32 @@ If your computer has a compatible NVIDIA GPU, you could try [NVCleanstall](https
 
 <li>Then, for the tweaks, set the <b>preferred</b> ones. You could <b>disable the telemetry</b>, <b>disable custom type of install</b> altogether (make it faster), <b>clean the older driver traces</b> (not required if uninstalled  through DDU), <b>add support for custom/older hardware</b>, <b>enable the DLSS version indicator</b>, <b>disable MPO</b> (which has to do with a technique that allows different user interfaces to be displayed on the screen at the same time and appear as if they are layered on top of each other) - it is usable for stable windowed resolution apps, and so on. It's useful but somewhat buggy in older versions, newer drivers should do it just fine. If something is wrong, e.g., there are crashes or slower experiences, this could be a reason, and if so, try to disable it. You can disable <b>Ansel</b> too, which is a in-game screenshot tool.
 
-There are also some <b>advanced settings</b> that could break or mess with the drivers, and some of them even need repackaging and a new signature (incompatible with some anti-cheats). It is able to <b>disable some in-driver telemetry</b>, <b>disable process containers</b> (see task manager), <b>disable the buggy audio timer</b> (not useful if there is no HD Audio component), <b>enable MSI</b> (it allows computer components, be it a GPU, to directly send interrupt messages to the CPU, bypassing the PIC, which improves efficiency and reduces latency) - <i>older NVIDIA GPUs didn't have this feature enabled by default</i>. The newest models available probably have it enabled (manual check is required). Also, it could <b>disable HDCP</b> (which is a digital copy protection module - some apps and streams will not allow their usage without this one), <b>enable custom patch for nvenc video encoding</b> (in day-to-day usage, the patch is beneficial for users who frequently work with video encoding tasks or streamers who need to encode multiple video streams at the same time).</li>
+There are also some <b>advanced settings</b> that could break or mess with the drivers, and some of them even need repackaging and a new signature (incompatible with some anti-cheats). It is able to <b>disable some in-driver telemetry</b>, <b>disable process containers</b> (see task manager), <b>disable the buggy audio timer</b> (not useful if there is no HD Audio component), <b>enable MSI</b> (it allows computer components, be it a GPU, to directly send interrupt messages to the CPU, bypassing the PIC, which improves efficiency and reduces latency) - <i>older NVIDIA GPUs didn't have this feature enabled by default</i>. The newest models available probably have it enabled (manual check is required). Also, it could <b>disable HDCP</b> (which is a digital copy protection module - some apps and streams will not allow their usage without this one), <b>enable custom patch for nvenc video encoding</b> (in day-to-day usage, the patch is beneficial for users who frequently work with video encoding tasks or streamers who need to encode multiple video streams at the same time).</li
+    
+<li>For tweaks, set your <b>preferred options</b>. Here are some useful adjustments:
+
+<ul>
+  <li><b>Disable telemetry:</b> This can enhance privacy and reduce unnecessary processes.</li>
+  <li><b>Enable an express installation:</b> Allows you to skip unnecessary steps, making the process faster. Useful if the installer won't refresh from its dark screen state.</li>
+  <li><b>Clean older driver traces:</b> While not necessary if you've uninstalled using DDU, it ensures a fresh installation environment.</li>
+  <li><b>Add support for custom or older hardware:</b> Useful for compatibility with legacy devices.</li>
+  <li><b>Enable DLSS version indicator:</b> Displays the active version of DLSS, useful for debugging or optimization.</li>
+  <li><b>Disable MPO:</b> Multi-plane overlay (MPO) improves performance in some cases (e.g. windowed screen) by efficiently layering user interfaces. However, it has been buggy in older driver versions. If you use multiple monitors, G-Sync or even simple configurations and experience crashes, flickering or performance drops in games or browsers, try disabling it. Newer drivers generally handle MPO more reliably.</li>
+  <li><b>Disable Ansel:</b> This in-game screenshot tool can be disabled if it's not needed, freeing up resources.</li>
+</ul>
+
+<b>Advanced settings</b> can provide additional optimizations but may carry risks. Some require repackaging and a new signature, which could cause issues with anti-cheat systems:
+
+<ul>
+  <li><b>Disable additional telemetry:</b> Reduces unnecessary data collection.</li>
+  <li><b>Disable process containers:</b> These appear in Task Manager and are often redundant for standard use. Breaks the control panel.</li>
+  <li><b>Disable the buggy audio timer:</b> Only relevant if the HD Audio component is installed, and issues are present.</li>
+  <li><b>Enable MSI (Message Signaled Interrupts):</b> Improves efficiency and reduces latency by allowing components, including GPUs, to communicate directly with the CPU. While this is often enabled by default in newer GPUs, manual verification is recommended.</li>
+  <li><b>Disable HDCP:</b> High-bandwidth Digital Content Protection ensures digital copy protection for certain streams and apps. Disabling it may improve performance but can prevent protected content playback and it may induce instability.</li>
+  <li><b>Enable a custom NVENC video encoding patch:</b> Useful for frequent video encoding tasks or streamers handling multiple video streams simultaneously.</li>
+</ul>
+</li>
+
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_tweaks.png" width="40%" height="40%">
@@ -231,8 +288,6 @@ The primary objective is to enable applications to use their <i>own settings</i>
 
 Therefore, first, enable <b>Use advanced 3D image settings</b> and then proceed to <i>Global Settings</i>.
 
-
-
 | Feature | My setting | Description |
 | -------- | -------- | -------- |
 | Image Scaling     | OFF     | An upscaling technology that is less computationally expensive but has worse image quality than DLSS. Driver function. Works in all games, and no special hardware is required.      |
@@ -241,15 +296,20 @@ Therefore, first, enable <b>Use advanced 3D image settings</b> and then proceed 
 | Antialiasing - FXAA | OFF | It smooths the jagged edges (through blurring) and flickering with less of a performance impact than other antialiasing settings. Doesn't make graphics look as smooth as other traditional methods like MSAA. May spoil the look of more text-based games. |
 | Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that shown content appears more natural. Displays are not linear, so gamma correction ensures that the brightness levels match the eye's perception. This is a feature that mostly alters the image rather than enhancing it. |
 | Antialiasing - Mode | Application-controlled | It determines how antialiasing is applied to games. Enhancing the application setting may improve the image quality of the game. It is recommended to let the game automatically select the most suitable antialiasing method based on your graphics card and the game's graphics settings. Otherwise, any custom settings may break or alter the graphics. |
+| Antialiasing - Setting | Application-controlled | Antialiasing is a feature that helps smooth out the jagged stair-step edges often seen on 3D objects, improving overall image quality. Higher antialiasing levels produce smoother visuals but can reduce performance, especially on less powerful systems. |
 | Antialiasing - Transparency | OFF | Can improve the appearance of transparent objects, such as glass and water, by making them appear smoother and less jagged. Requires MSAA in order to work. |
 | Background Application Max Frame Rate | 30 | Controls the maximum frame rate that games and other applications can run at when they are not in focus. By limiting the frame rate, you can save power and improve the performance of your computer. |
+| CUDA - GPUs | All | Specify which GPU to use in CUDA applications. It applies to PhysX too. |
+| CUDA - Sysmem Fallback Policy | Driver Default | Determines how CUDA handles memory allocation when GPU memory is full, allowing fallback to system memory (RAM) under certain conditions to comply with the Windows Display Driver Model (WDDM). When fallback occurs, programs can continue running without encountering an out-of-memory error, though performance may suffer due to the slower speed of system memory. Driver default setting uses the behavior recommended by the driver, prefer no sysmem fallback avoids falling back to system memory and instead returns an out-of-memory error (potentially leading to crashes or TDRs if memory runs out) and prefer sysmem fallback prioritizes fallback to system memory during memory pressure to maintain stability, albeit with reduced performance. |
 | DSR - Factors | 2.25 (DL Scaling) | The feature allows users to render games at a resolution higher than their monitor's native resolution and then scale down the image to fit their monitor's resolution. Can lead to enhanced sharpness and more detailed visuals. DSR factors serve as multipliers that users can apply to increase their game's resolution. For instance, if a monitor's native resolution is 1080p, employing a DSR factor of 2x would enable rendering games at a resolution of 2160p. |
 | DSR - Smoothness | 33% | It adjusts the sharpness or smoothness of the image, especially if there are blurry spots or jagged edges on the image. Higher values may induce a lot of blur in the background. |
 | Low Latency Mode | OFF (set per individual game) | The technology reduces the delay between a user's actions in a game and the corresponding reactions on the screen. This is achieved by minimising the number of frames queued up in the graphics pipeline. As a result, the responsiveness of the games is notably improved, particularly in competitive multiplayer. When a game supports the Reflex Low Latency mode, the preference is to utilise that mode instead of the Ultra Low Latency mode in the driver. Nonetheless, when both modes are enabled, the Reflex Low Latency mode will be given higher priority automatically for the user. On value limits the number of queued frames to 1, which can reduce latency but may also lead to stuttering. Ultra minimises the number of queued frames even further, which can reduce latency even more but may also lead to more stuttering. |
 | Max Frame Rate | OFF | Limit the maximum frame rate for a game or application. Can be useful for power savings, reduced input lag, and preserving the Variable Refresh Rate range. Better used by in-game settings. |
 | Multi-Frame Sampled AA (MFAA) | OFF (sometimes can be set per individual game) | An anti-aliasing technique developed by NVIDIA that improves upon the quality of traditional multisample anti-aliasing (MSAA) while reducing the performance impact. It does this by using a technique called temporal supersampling. MFAA recognizes that the averaging done by MSAA can be done over time by changing sample positions in each frame and applying a filter. This allows MFAA to provide image quality similar to 2x MSAA with almost no impact on performance. The ultimate objective is to provide comparable antialiasing such that MSAA 2x + MFAA ideally achieves MSAA 4x quality at a similar performance cost to MSAA 2x. As a drawback, this function can possibly disable D3D11 Driver Command Lists, which can hinder multi-threaded rendering, resulting in decreased performance, especially when CPU-limited. Also, MFAA exhibits suboptimal performance when the FPS is already low, as it can lead to motion smearing and blurring issues. |
 | OpenGL GDI compatibility | Auto | The way to render OpenGL applications. Prefer Compatible OpenGL prioritizes battery life, while Prefer Optimized OpenGL prioritizes performance. Beneficial for laptops and notebook PCs, as it enables users to choose between performance and power optimizations for OpenGL windows. Selecting either option may conflict with applications utilizing both OpenGL and GDI rendering. For laptop users, it is recommended to set it to Auto and allow the driver to determine the appropriate behavior. |
-| Power management mode | Normal - Optimal Power | It dictates how the GPU behaves in relation to power usage, performance, and frame rates. Adaptive mode exhibits a smoother (nearly power-saving) linear voltage scaling compared to Optimal, where voltage is dynamically adjusted more aggressively based on in-game utilization. On the other hand, Maximum Performance mode targets the highest clock or voltage, regardless of whether it is necessary for the game. |
+| OpenGL rendering GPU | Auto-select | The GPU used by OpenGL applications. |
+| Power management mode | Normal (Optimal Power) | It dictates how the GPU behaves in relation to power usage, performance, and frame rates. Adaptive mode exhibits a smoother (nearly power-saving) linear voltage scaling compared to Optimal, where voltage is dynamically adjusted more aggressively based on in-game utilization. On the other hand, Maximum Performance mode targets the highest clock or voltage, regardless of whether it is necessary for the game. |
+| Preferesh refresh rate (Laptop Display) | Application-controlled | Override the given application refresh rate. Useful if there is no such setting. |
 | Shader Cache Size | Driver Default | Stores pre-compiled shader code in the computer's storage. When a game or application first starts up, the GPU needs to compile the shader code for each shader it will use. This can take a few seconds, and it can cause the game or application to stutter or lag as it waits for the shaders to compile. With shader cache enabled, the GPU will store the pre-compiled shader code for each shader it has seen before. Drawbacks include increased computer storage usage due to storing pre-compiled shader code and the possibility of cache invalidation when changes are made to the game or application files, requiring recompilation of affected shaders. The default value is about 4 GB. |
 | Texture filtering - Anisotropic sample optimization | OFF | Reduces the number of AF samples depending on the texel size (texture pixel), which is influenced by factors such as texture resolution, polygon size, and display resolution. However, implementing this optimization may result in potential side effects, including blurring and shimmering. |
 | Texture filtering - Negative LOD bias | Allow | Adjust the level of detail of the textures. The LOD Bias plays a vital role in managing texture detail by influencing the selection of Mipmaps. Mipmaps consist of a set of precomputed textures, each with varying resolutions, strategically employed to enhance performance. When an individual looks at a nearby surface, the system loads a higher resolution mipmap. As the person moves away from that surface, progressively lower resolution mipmaps are displayed in response to their changing distance. Utilizing a negative LOD Bias allows the displacement of mipmap levels to a greater distance, leading to enhanced texture sharpness. However, this improvement comes at the expense of introducing shimmering effects when textures are in motion. For users not utilizing DLSS, clamping is recommended, while those employing DLSS should opt for the Allow setting (which may enhance temporal stability but can also lead to flickering and moire, which is scene content-dependent). |
@@ -310,7 +370,7 @@ If there was no tool used, the first part of **debloating** is going to be throu
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
 </p>
 
-The second part via goes with [SohpiApp](https://github.com/Sophia-Community/SophiApp "SohpiApp"). It has more comprehensive settings. You can **deactivate some unnecessary services** that are not needed and even **remove UWP apps**. Uninstalling unnecessary apps (e.g. help, maps) should be fine, but **refrain from the complex ones associated with the operating system**, such as Edge, Cortana, or Xbox, if not needed. Nowadays, Windows is so integrated that it will be challenging or almost impossible to use it in this way without encountering any errors if not experienced or using last-day tweakers.
+The second part via goes with [SohpiApp](https://github.com/Sophia-Community/SophiApp). It has more comprehensive settings. You can **deactivate some unnecessary services** that are not needed and even **remove UWP apps**. Uninstalling unnecessary apps (e.g. help, maps) should be fine, but **refrain from the complex ones associated with the operating system**, such as Edge, Cortana, or Xbox, if not needed. Nowadays, Windows is so integrated that it will be challenging or almost impossible to use it in this way without encountering any errors if not experienced or using last-day tweakers.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
@@ -366,14 +426,14 @@ These apps are optional, or some of them may be included in the operating system
 - [Upscaly](https://github.com/upscayl/upscayl)
 - [Wondershare PDFelement](https://pdf.wondershare.com/)
 - [VMWare Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
-- [Internet Download Manager](https://www.internetdownloadmanager.com/)
+- [FileCentipede](https://github.com/filecxx/FileCentipede) or [Internet Download Manager](https://www.internetdownloadmanager.com)
 - [!megathread_resources](https://old.reddit.com/r/Piracy/wiki/megathread)
 - [!fmhy](https://fmhy.net/)
 
 ##### Media
 - [Spotify-X](https://github.com/amd64fox/SpotX)
 - [Stremio](https://www.stremio.com/)
-- [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/9N9WCLWDQS5J?hl=en-us&gl=us)
+- [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/)
 - [mpvnet media player ](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
 
@@ -401,7 +461,6 @@ These apps are optional, or some of them may be included in the operating system
 - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) or [Proton Pass](https://addons.mozilla.org/en-US/firefox/addon/proton-pass/)
 - [Translate Web Pages](https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/)
 - [Location Guard](https://addons.mozilla.org/en-US/firefox/addon/location-guard/)
-- [FastForward](https://github.com/FastForwardTeam/FastForward)
 - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 - [Song Identifier](https://addons.mozilla.org/en-US/firefox/addon/song-identifier/)
 - [Awesome Screenshot](https://addons.mozilla.org/en-US/firefox/addon/screenshot-capture-annotate/)
@@ -424,6 +483,7 @@ These apps are optional, or some of them may be included in the operating system
 - [History Cleaner](https://addons.mozilla.org/en-US/firefox/addon/history-cleaner/) and [Clear Browsing Data](https://addons.mozilla.org/en-US/firefox/addon/clear-browsing-data/)
 - [View Page Archive](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/)
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
+- [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) (/w Piper danny or alba-medium English)
 
 ###### Youtube:
 - [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
