@@ -42,7 +42,7 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 
 ### Notable Linux Distributions  
 
-- **[Linux Mint (Edge)](https://linuxmint.com/):**
+- **[Linux Mint (Edge)](https://linuxmint.com/):**  
   Stable, GUI-focused, user-friendly, and plug-and-play. While not flashy, it prioritizes simplicity and reliability.  
 
 - **[Bazzite](https://bazzite.gg/):**  
@@ -237,13 +237,13 @@ You can also install <b>NVCleanstall</b> on your PC to manage driver installatio
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_auto_detect.png" width="40%" height="40%">
 </p>
 
-<li>Select the <b>Recommended</b> components if desired, based on your computer type and preferences. For laptops, the <b>Nvidia Platform Controllers and Framework</b> are required for TDP control and <i>Dynamic Boost</i>.</li>
+<li>Select the <b>Recommended</b> components if desired, based on your computer type and preferences. If the device is a laptop, <b>Nvidia Platform Controllers and Framework</b> is required for TDP control and <i>Dynamic Boost</i>.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_components.png" width="40%" height="40%">
 </p>
     
-<li>For tweaks, set your <b>preferred options</b>. Here are some useful adjustments:
+<li>On tweaks section, set your <b>preferred options</b>. Here are some useful adjustments:
 
 <ul>
   <li><b>Disable telemetry:</b> This can enhance privacy and reduce unnecessary processes.</li>
@@ -355,7 +355,7 @@ Above presented [Winutil](https://github.com/ChrisTitusTech/winutil) has a tweak
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_tweaks.png" width="50%" height="50%">
 </p>
 
-If there was no tool used, the first part of **debloating** is going to be through [O&O Shutup](https://www.oo-software.com/en/shutup10). It can tweak most of the usual settings. [Here is my exported example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/ooshutup10/ooshutup10.cfg)... Disabling every feature can lead to compatibility errors.
+If until this step, there was no debloating involved, be it pre-made or post-installation, then the first part of it is going to be using [O&O Shutup](https://www.oo-software.com/en/shutup10). It can tweak most of the usual settings. [Here is an example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/ooshutup10/ooshutup10.cfg). As a tip, disabling every feature can lead to compatibility errors.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
@@ -434,8 +434,8 @@ These apps are optional, or some of them may be included in the operating system
 - [GitHub](https://desktop.github.com/)
 - [Office](https://forums.mydigitallife.net/threads/office-r-tool-the-new-era.84450/)
 - [Beyond Compare](https://www.scootersoftware.com/download.php)
-- [Appflowy](https://www.appflowy.io/) or [Notes](https://github.com/nuttyartist/notes) or [Craft](https://www.craft.do/)
-- [Excalidraw](https://excalidraw.com/)
+- [AFFiNE](https://github.com/toeverything/AFFiNE) or [QOwnNotes](https://github.com/pbek/QOwnNotes) or [Notes](https://github.com/nuttyartist/notes)
+- [Xounral++](https://github.com/xournalpp/xournalpp/) or [Excalidraw](https://excalidraw.com/) or [RNote](https://github.com/flxzt/rnote) or [Butterfly](https://github.com/LinwoodDev/Butterfly) or [Saber](https://github.com/saber-notes/saber)
 
 ##### Communication
 - [Discord](https://discord.com/) and [Vencord](https://vencord.dev/)
