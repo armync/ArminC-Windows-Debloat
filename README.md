@@ -133,7 +133,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 </p>
     
 <br>
-—— <p>(<b>Recommended</b>) - By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a>. Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
+— <p>(<b>Recommended</b>) - By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a>. Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
     
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
