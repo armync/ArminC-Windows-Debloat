@@ -42,20 +42,20 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 
 ### Notable Linux Distributions  
 
-- **[Linux Mint (Edge)](https://linuxmint.com/):**  
+- **[Linux Mint](https://linuxmint.com/):**  
   Stable, GUI-focused, user-friendly, and plug-and-play. While not flashy, it prioritizes simplicity and reliability.  
 
-- **[Bazzite](https://bazzite.gg/):**  
-  An atomic, immutable distro ideal for gaming and console-like setups. System changes are limited and revert with updates, ensuring reliability and consistency. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
-
-- **[Pop!_OS](https://pop.system76.com/):**  
-  Sleek and elegant with the Cosmic UI, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
+- **[Pop!_OS](https://system76.com/cosmic/):**  
+  Sleek and elegant Cosmic UI, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
 
 - **[openSUSE Tumbleweed](https://get.opensuse.org/):**  
-  Professionally backed, powerful, and intuitive with auto QA-tested, up-to-date packages. Though feature-rich with complex GUI tools, it requires some initial setup, such as enabling non-open-source repositories.  
+  Professionally backed, powerful, and intuitive with auto QA tested and up-to-date packages. Though feature-rich with complex GUI tools, it may require some initial setup, such as enabling non-open-source repositories.
+
+- **[Bazzite](https://bazzite.gg/):**  
+  An atomic, immutable distro ideal largely for gaming and console-like setups. System changes are limited and reverted with updates, ensuring reliability and consistency for those who seek these controlled adjustments. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
 
 - **[Fedora](https://fedoraproject.org/spins/kde/):**  
-  Modern and professionally supported, it adopts the latest technologies early. However, this can lead to occasional edge-case bugs.  
+  Modern and professionally supported, it is an earlier adopter of latest technologies. However, this can lead to occasional edge-case bugs.  
 
 - **[EndeavourOS](https://endeavouros.com/):**  
   Community-driven and based on Arch, featuring basic GUI tools like an installer and helper. Primarily terminal-centric and aimed at advanced users.  
