@@ -43,13 +43,13 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 ### Notable Linux Distributions  
 
 - **[Linux Mint](https://linuxmint.com/):**  
-  Stable, GUI-focused, user-friendly, and plug-and-play. While not flashy, it prioritizes simplicity and reliability.  
-
-- **[Pop!_OS](https://system76.com/cosmic/):**  
-  Sleek and elegant Cosmic UI, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
+  Stable, GUI-focused and user-friendly. While not flashy or packed with the zero-day tech, it prioritizes simplicity and reliability.
 
 - **[openSUSE Tumbleweed](https://get.opensuse.org/):**  
   Professionally backed, powerful, and intuitive with auto QA tested and up-to-date packages. Though feature-rich with complex GUI tools, it may require some initial setup, such as enabling non-open-source repositories.
+
+- **[Pop!_OS](https://system76.com/cosmic/):**  
+  Sleek and elegant ui, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
 
 - **[Bazzite](https://bazzite.gg/):**  
   An atomic, immutable distro ideal largely for gaming and console-like setups. System changes are limited and reverted with updates, ensuring reliability and consistency for those who seek these controlled adjustments. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
@@ -61,8 +61,7 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
   Community-driven and based on Arch, featuring basic GUI tools like an installer and helper. Primarily terminal-centric and aimed at advanced users.  
 
 - **[CachyOS](https://cachyos.org/):**  
-  A lightweight Arch-based distro with custom optimizations and schedulers. While snappy, it may occasionally face stability issues due to its experimental nature.  
-
+  A lightweight Arch-based distro with custom optimizations and schedulers. While snappy, it may occasionally face stability issues due to its experimental nature.
 
 > [!IMPORTANT]
 > Using Linux can be relatively straightforward, but it's helpful to have some basic experience following tutorials. Occasionally, you'll need to use the Terminal, as not everything will work as expected. It’s likely that the Terminal will come in handy at least a few times during the lifespan of the operating system.
@@ -133,7 +132,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 </p>
     
 <br>
-— <p>(<b>Recommended</b>) - By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a>. Or otherwise, for a simpler complexity, <a href="https://docs.atlasos.net/getting-started/installation/">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
+— <p>(<b>Recommended</b>) - By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a>. Or otherwise, for a simpler complexity, <a href="https://github.com/Atlas-OS/Atlas">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
     
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
@@ -199,7 +198,7 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 If you are done with it, now you should prepare the operating system.
 
 ##### The browser
-The first thing on the list is to try and change the browser. **[Zen](https://github.com/zen-browser/desktop)** or unforked **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** are the most optimal variants, even speaking of *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
+The first thing on the list is to try and choose the browser. **[Floorp](https://github.com/Floorp-Projects/Floorp)**, **[Waterfox](https://github.com/BrowserWorks/Waterfox)**, **[Zen](https://github.com/zen-browser/desktop)** or even the unforked **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** are the most optimal variants, even speaking of *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
 
 ##### Other apps
 Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/) or even [PeaZip](https://peazip.github.io/) should do it. These are *open-source*.
@@ -343,7 +342,7 @@ In addition, don't forget to [activate](https://github.com/massgravel/Microsoft-
 
 #### Debloating
 
-The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are regrettable. [StartAllBack](https://www.startallback.com) is **enhancing all elements** organically. Unfortunately, the animations don't have the same fluency and are sometimes prone to bugs. If you don't want to, you can try other alternatives, such as just returning to the complex context menu through [Winearo Tweaker](https://winaero.com/winaero-tweaker/#download).
+The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are regrettable. [StartAllBack](https://www.startallback.com) is **enhancing all elements** organically. Unfortunately, the animations don't have the same fluency and are sometimes prone to bugs. If you don't want to, you can try other alternatives, such as just returning to the complex context menu through [Winearo Tweaker](https://winaero.com/winaero-tweaker/#download). There is [Windhawk](https://github.com/ramensoftware/windhawk) too, which is a Windows injecting mod rhat goes into tweaking and adding features.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
@@ -423,7 +422,7 @@ These apps are optional, or some of them may be included in the operating system
 
 ##### Media
 - [Spotify-X](https://github.com/amd64fox/SpotX)
-- [Stremio](https://www.stremio.com/)
+- [Stremio Community](https://github.com/Zaarrg/stremio-desktop-v5) / [Stremio](https://www.stremio.com/) and [Stremio Addons](https://stremio-addons.com/)
 - [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/)
 - [mpvnet media player ](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
@@ -436,10 +435,12 @@ These apps are optional, or some of them may be included in the operating system
 - [Beyond Compare](https://www.scootersoftware.com/download.php)
 - [AFFiNE](https://github.com/toeverything/AFFiNE) or [QOwnNotes](https://github.com/pbek/QOwnNotes) or [Notes](https://github.com/nuttyartist/notes)
 - [Xounral++](https://github.com/xournalpp/xournalpp/) or [Excalidraw](https://excalidraw.com/) or [RNote](https://github.com/flxzt/rnote) or [Butterfly](https://github.com/LinwoodDev/Butterfly) or [Saber](https://github.com/saber-notes/saber)
+- [Pomatez](https://github.com/zidoro/pomatez) or [FocusTide](https://focustide.app/)
 
 ##### Communication
 - [Discord](https://discord.com/) and [Vencord](https://vencord.dev/)
 - [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app)
+- [Cinny](https://github.com/cinnyapp/cinny-desktop)
 
 ##### Games
 - [Steam](https://store.steampowered.com/about/)
@@ -488,6 +489,10 @@ These apps are optional, or some of them may be included in the operating system
 ## Support
 
 Reach out to me via the **[profile addresses](https://github.com/ArmynC)**.
+
+## Sponsor
+
+[![Donation](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%5E%5E-green?style=flat&logo=undertale&logoColor=green&color=white)](https://github.com/sponsors/armync)
 
 ## License
 
