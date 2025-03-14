@@ -110,7 +110,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <li><a href="https://msdl.gravesoft.dev/">Microsoft Software Download Listing </a> iso media grabber for bootable USB.</li>
     
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/microsoft_software_grabber.png" width="30%" height="30%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/microsoft_software_grabber.png" width="80%" height="80%">
 <br>
 <sub>Microsoft Software grabber listing</sub>
 </p>
@@ -118,7 +118,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <li><a href="https://www.microsoft.com/en-us/software-download/windows11">Official Windows Installation</a> tool/iso for bootable USB or DVD.</li>
     
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_official_iso.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_official_iso.png" width="75%" height="75%">
 <br>
 <sub>Windows generated ISO</sub>
 </p>
