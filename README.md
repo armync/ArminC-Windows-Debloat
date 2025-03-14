@@ -94,7 +94,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <sub>rg adguard assembly</sub>
 </p>
 
-<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple custom builds</a>, be they touched or untouched, including <b>modifications</b> such as disabled system requirements checks or even total reskins (<u>be careful</u>).</li>
+<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple custom builds</a>, be it touched or untouched, including <b>modifications</b> such as disabled system requirements checks or even total reskins (<u>be careful</u>).</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/teamos.png" width="30%" height="30%">
@@ -138,6 +138,12 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%">
 <br>
 <sub>Winutil MicroWin</sub>
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/atlas_os.png" width="50%" height="50%">
+<br>
+<sub>Atlas OS</sub>
 </p>
 
 </ol>
@@ -203,7 +209,7 @@ The first thing on the list is to try and choose the browser. **[Floorp](https:/
 ##### Other apps
 Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/) or even [PeaZip](https://peazip.github.io/) should do it. These are *open-source*.
 
-For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there are [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus") or even [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html). Kaspersky includes most of the protection modules from its premium version and **intelligently disables** itself when resources are needed, like during gaming.
+For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there is [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html) or [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus). Should **intelligently disables** themselves when resources are needed, like during gaming.
 
 ##### Updates
 Optionally, **check all available updates and drivers**, install them, and restart the computer. **Ensure** there are **no** remaining updates. It is **not advisable to disable** or avoid them.
