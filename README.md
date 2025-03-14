@@ -137,12 +137,12 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="90%" />
+      <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="50%" height="50%"/>
       <br>
       <sub>Winutil MicroWin</sub>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/atlas_os.png" width="90%" />
+      <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/atlas_os.png" width="45%" height="45%"/>
       <br>
       <sub>Atlas OS</sub>
     </td>
