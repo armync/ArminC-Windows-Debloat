@@ -134,14 +134,20 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <br>
 — <p>(<b>Recommended</b>) - By using these images, one can apply debloat and enhance functionality which goes as <a href="https://github.com/ChrisTitusTech/winutil">MicroWin</a>. Or otherwise, for a simpler complexity, <a href="https://github.com/Atlas-OS/Atlas">AtlasOS</a> should represent a good choice as a pre-patched solution.</p>
     
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/atlas_os.png" width="45%" />
-</p>
-<p align="center">
-  <span style="margin-right: 10%;">Winutil MicroWin</span>
-  <span style="margin-left: 10%;">Atlas OS</span>
-</p>
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_microwin.png" width="90%" />
+      <br>
+      <sub>Winutil MicroWin</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/atlas_os.png" width="90%" />
+      <br>
+      <sub>Atlas OS</sub>
+    </td>
+  </tr>
+</table>
 
 </ol>
 </ul>
