@@ -54,7 +54,7 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 - **[Bazzite](https://bazzite.gg/):**  
   An atomic, immutable distro ideal largely for gaming and console-like setups. System changes are limited and reverted with updates, ensuring reliability and consistency for those who seek these controlled adjustments. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
 
-- **[Fedora](https://fedoraproject.org/spins/kde/):**  
+- **[Fedora](https://fedoraproject.org/kde/):**  
   Modern and professionally supported, it is an earlier adopter of latest technologies. However, this can lead to occasional edge-case bugs.  
 
 - **[EndeavourOS](https://endeavouros.com/):**  
@@ -485,6 +485,8 @@ These apps are optional, or some of them may be included in the operating system
 - [View Page Archive](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/)
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
 - [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) (/w Piper danny or alba-medium English)
+- [Orbit Content Summarizer](https://addons.mozilla.org/en-US/firefox/addon/orbit-summarizer/)
+- [AI Blocker](https://addons.mozilla.org/en-US/firefox/addon/ai-blocker/)
 
 ###### Youtube:
 - [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
