@@ -43,19 +43,19 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 ### Notable Linux Distributions  
 
 - **[Linux Mint](https://linuxmint.com/):**  
-  Stable, GUI-focused and user-friendly. While not flashy or packed with the zero-day tech, it prioritizes simplicity and reliability.
+  Stable, GUI-focused and user-friendly. While not flashy, it prioritizes easiness and reliability for simple day-to-day usage.
 
 - **[openSUSE Tumbleweed](https://get.opensuse.org/):**  
-  Professionally backed, powerful, and intuitive with auto QA tested and up-to-date packages. Though feature-rich with complex GUI tools, it may require some initial setup, such as enabling non-open-source repositories.
+  Backed by a European corporation, powerful, and intuitive with auto QA tested and up-to-date packages. Though feature-rich with complex GUI tools, it may require some initial setup, such as enabling non-open-source repositories.
+
+- **[Fedora](https://fedoraproject.org/kde/):**  
+  Modern and corporate supported, it is an earlier adopter of latest technologies. While it may result in edge-case bugs, it is covered under openSUSE's openQA. Requires some setup such as enabling the proprietary codecs.
 
 - **[Pop!_OS](https://system76.com/cosmic/):**  
-  Sleek and elegant ui, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
+  Sleek and elegant interface, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
 
 - **[Bazzite](https://bazzite.gg/):**  
   An atomic, immutable distro ideal largely for gaming and console-like setups. System changes are limited and reverted with updates, ensuring reliability and consistency for those who seek these controlled adjustments. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
-
-- **[Fedora](https://fedoraproject.org/kde/):**  
-  Modern and professionally supported, it is an earlier adopter of latest technologies. However, this can lead to occasional edge-case bugs.  
 
 - **[EndeavourOS](https://endeavouros.com/):**  
   Community-driven and based on Arch, featuring basic GUI tools like an installer and helper. Primarily terminal-centric and aimed at advanced users.  
@@ -293,7 +293,7 @@ Therefore, first, enable <b>Use advanced 3D image settings</b> and then proceed 
 | Ambient Occlusion | OFF | Adds subtle shadows and shading to the areas where objects or surfaces meet and to areas that are not directly lit. Better set up directly by the application. Can be used for games that are too old to implement this feature by themselves. |
 | Anisotropic filtering | Application-controlled | Improves the quality of textures (enhances their smoothness to make them appear sharper) on surfaces that are viewed at an angle. Noticeable on textures that are seen at a steep angle, such as walls or floors. Without it, textures can appear blurry and pixelated. Sometimes it is relevant to enforce high texture filtering globally (not in-game) due to potential quality issues with individual developer solutions. Also, it can be used if the game lacks a native "Anisotropic Filtering" option, has a limited anisotropic option (up to 4x AF), and supports only up to "Trilinear Filtering". |
 | Antialiasing - FXAA | OFF | It smooths the jagged edges (through blurring) and flickering with less of a performance impact than other antialiasing settings. Doesn't make graphics look as smooth as other traditional methods like MSAA. May spoil the look of more text-based games. |
-| Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that shown content appears more natural. Displays are not linear, so gamma correction ensures that the brightness levels match the eye's perception. This is a feature that mostly alters the image rather than enhancing it. |
+| Antialiasing - Gamma correction | OFF | Is a method to adjust brightness data for displays so that shown content appears more natural. Displays are not linear, so gamma correction ensures that the brightness levels match the eye's perception. This is a feature that mostly alters the image rather than enhancing it. 
 | Antialiasing - Mode | Application-controlled | It determines how antialiasing is applied to games. Enhancing the application setting may improve the image quality of the game. It is recommended to let the game automatically select the most suitable antialiasing method based on your graphics card and the game's graphics settings. Otherwise, any custom settings may break or alter the graphics. |
 | Antialiasing - Setting | Application-controlled | Antialiasing is a feature that helps smooth out the jagged stair-step edges often seen on 3D objects, improving overall image quality. Higher antialiasing levels produce smoother visuals but can reduce performance, especially on less powerful systems. |
 | Antialiasing - Transparency | OFF | Can improve the appearance of transparent objects, such as glass and water, by making them appear smoother and less jagged. Requires MSAA in order to work. |
@@ -383,7 +383,7 @@ Furthermore, the desktop interface may be personalized. For instance, consider a
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/windows_rice.png" width="70%" height="70%">
 </p>
 
-The first part includes taskbar configuration as previously discussed. [StartAllBack](https://www.startallback.com) should be installed and configured as desired. In this case, a <b>Proper 11</b> theme, with <b>Default</b> visual style, at <b>M</b> icon size and <b>XS</b> icon margins should do it. On top of that, <b>centered task</b> icons, together and <b>dynamic transparency</b> may be utilized. As a substitute, [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) can be used.
+The first part includes taskbar configuration as previously discussed. [StartAllBack](https://www.startallback.com) should be installed and configured as desired. In this case, a <b>Proper 11</b> theme, with <b>Default</b> visual style, at <b>M</b> icon size and <b>XS</b> icon margins should do it. On top of that, <b>centered task</b> icons, together and <b>dynamic transparency</b> may be utilized. As a substitute, [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) can be used. The apps in taskbar can be grouped using [AppGroup](https://github.com/iandiv/AppGroup).
 
 Next, the further step will consist in downloading of [RainMeter](https://www.rainmeter.net) <i>customization tool</i>. It allows enabling different design modules, called 'skins' on the desktop workspace. Templates may be [found here](https://www.rainmeter.net/discover/).
 
@@ -419,21 +419,27 @@ These apps are optional, or some of them may be included in the operating system
 - [Parsec](https://parsec.app/)
 - [WingetUI](https://github.com/martinet101/WingetUI)
 - [Dimmer](https://www.nelsonpires.com/software/dimmer)
-- [!cracksurl](https://cracksurl.com/)
+- [/cracksurl](https://cracksurl.com/)
 - [WizTree](https://diskanalyzer.com/) or [TreeSize](https://www.jam-software.com/treesize_free)
 - [WizFile]( https://antibody-software.com/wizfile/) or [UltraSearch](https://www.jam-software.com/ultrasearch)
 - [Upscaly](https://github.com/upscayl/upscayl)
 - [Wondershare PDFelement](https://pdf.wondershare.com/)
 - [VMWare Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
 - [FileCentipede](https://github.com/filecxx/FileCentipede) or [Internet Download Manager](https://www.internetdownloadmanager.com)
-- [!megathread_resources](https://old.reddit.com/r/Piracy/wiki/megathread)
-- [!fmhy](https://fmhy.net/)
+- [/megathread_resources](https://old.reddit.com/r/Piracy/wiki/megathread)
+- [/fmhy](https://fmhy.net/)
+- [System Informer](https://github.com/winsiderss/systeminformer)
+- [AppGroup](https://github.com/iandiv/AppGroup)
+  
+##### Tweaks
+- [LowAudioLatency](https://github.com/spddl/LowAudioLatency)
+- [Noise Suppression Plugin](https://github.com/werman/noise-suppression-for-voice) and [Equalizer APO](https://sourceforge.net/projects/equalizerapo/)
 
 ##### Media
 - [Spotify-X](https://github.com/amd64fox/SpotX)
-- [Stremio Community](https://github.com/Zaarrg/stremio-desktop-v5) / [Stremio](https://www.stremio.com/) and [Stremio Addons](https://stremio-addons.com/)
+- [Stremio](https://www.stremio.com/) / [Stremio Fork-Fix](https://github.com/Zaarrg/stremio-desktop-v5) and [Stremio Addons](https://stremio-addons.com/)
 - [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver/)
-- [mpvnet media player ](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
+- [mpvnet media player](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin/)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
 
 ##### Development
@@ -455,7 +461,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Steam](https://store.steampowered.com/about/)
 - [Heroic Launcher](https://heroicgameslauncher.com/)
 - [Flashpoint](https://flashpointarchive.org/)
-- [!steamrip](https://steamrip.com/)
+- [/steamrip](https://steamrip.com/)
 
 ##### Browser extensions
 
@@ -487,9 +493,10 @@ These apps are optional, or some of them may be included in the operating system
 - [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud/) (/w Piper danny or alba-medium English)
 - [Orbit Content Summarizer](https://addons.mozilla.org/en-US/firefox/addon/orbit-summarizer/)
 - [AI Blocker](https://addons.mozilla.org/en-US/firefox/addon/ai-blocker/)
+- [FastStream](https://github.com/Andrews54757/FastStream/)
 
 ###### Youtube:
-- [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/) or [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
+- [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux/)
 - [Return YouTube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/)
 - [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar/)
 - [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip/)
