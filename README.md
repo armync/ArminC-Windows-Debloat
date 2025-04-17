@@ -349,12 +349,18 @@ Additionally, based on preference, **Memory integrity (Core Isolation)** could b
 
 In addition, don't forget to [activate](https://github.com/massgravel/Microsoft-Activation-Scripts) Windows and <i>other</i> components.
 
-#### Debloating
+#### Debloating and interface
 
 The default Taskbar, Start Menu, Context Menu, and File Explorer experiences are regrettable. [StartAllBack](https://www.startallback.com) is **enhancing all elements** organically. Unfortunately, the animations don't have the same fluency and are sometimes prone to bugs. If you don't want to, you can try other alternatives, such as just returning to the complex context menu through [Winearo Tweaker](https://winaero.com/winaero-tweaker/#download). There is [Windhawk](https://github.com/ramensoftware/windhawk) too, which is a Windows injecting mod rhat goes into tweaking and adding features.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/startallback.png" width="50%" height="50%">
+</p>
+
+[Winscript](https://github.com/flick9000/winscript) tool has a **simple yet efficient interface**, equiped with features such as debloating, privacy, telemetry, gaming and performance scripts. It's an advanced dashboard for multiple settings.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winscript.png" width="50%" height="50%">
 </p>
 
 Above presented [Winutil](https://github.com/ChrisTitusTech/winutil) has a tweak component too. So, it can and should be used to enhance the operating system. If it was used through MicroWin, some are already applied, such as Minimal (e.g. disabled consumerfeatures, telemetry, services). In this case, the user still has the to tweak it even more if desired.
@@ -363,13 +369,13 @@ Above presented [Winutil](https://github.com/ChrisTitusTech/winutil) has a tweak
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/winutil_tweaks.png" width="50%" height="50%">
 </p>
 
-If until this step, there was no debloating involved, be it pre-made or post-installation, then the first part of it is going to be using [O&O Shutup](https://www.oo-software.com/en/shutup10). It can tweak most of the usual settings. [Here is an example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/ooshutup10/ooshutup10.cfg). As a tip, disabling every feature can lead to compatibility errors.
+For a deeper insight into the **privacy side of things**, [O&O Shutup](https://www.oo-software.com/en/shutup10) can be used. [Here is an example configuration](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/ooshutup10/ooshutup10.cfg). As a tip, toggling every option can lead to compatibility errors or deactivation of useful features.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/oo_shutup.png" width="50%" height="50%">
 </p>
 
-The second part via goes with [SohpiApp](https://github.com/Sophia-Community/SophiApp). It has more comprehensive settings. You can **deactivate some unnecessary services** that are not needed and even **remove UWP apps**. Uninstalling unnecessary apps (e.g. help, maps) should be fine, but **refrain from the complex ones associated with the operating system**, such as Edge, Cortana, or Xbox, if not needed. Nowadays, Windows is so integrated that it will be challenging or almost impossible to use it in this way without encountering any errors if not experienced or using last-day tweakers.
+Also, [SophiaApp](https://github.com/Sophia-Community/SophiApp) has some comprehensive settings. It can **deactivate some unnecessary services** that are not needed and even **remove UWP apps**. Uninstalling unnecessary apps (e.g. help, maps) should be fine, but **refrain from the complex ones associated with the operating system**, such as Edge, Cortana, or Xbox, if not needed. Nowadays, Windows is so integrated that it will be challenging or almost impossible to use it in this way without encountering any errors if not experienced or using last-day tweakers.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/sophiapp.png" width="50%" height="50%">
@@ -433,7 +439,8 @@ These apps are optional, or some of them may be included in the operating system
   
 ##### Tweaks
 - [LowAudioLatency](https://github.com/spddl/LowAudioLatency)
-- [Noise Suppression Plugin](https://github.com/werman/noise-suppression-for-voice) and [Equalizer APO](https://sourceforge.net/projects/equalizerapo/)
+- [Noise Suppression Plugin](https://github.com/werman/noise-suppression-for-voice) and [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) + [plugins](https://www.youtube.com/watch?v=vXuAwpt4WsQ)
+- [ProcessLasso](https://bitsum.com/) (complex tool, research required)
 
 ##### Media
 - [Spotify-X](https://github.com/amd64fox/SpotX)
