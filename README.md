@@ -42,14 +42,14 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 
 ### Notable Linux Distributions  
 
-- **[Linux Mint](https://linuxmint.com/):**  
-  Stable, GUI-focused and user-friendly. While not flashy, it prioritizes easiness and reliability for simple day-to-day usage.
-
 - **[Fedora](https://fedoraproject.org/kde/):**  
-  Modern and U.S. corporate supportd, Fedora embraces cutting-edge technologies via its formal Changes Policy, which promotes transparent, documented proposals. Although this rarely causes edge-case bugs, they're caught through testing with openSUSE’s openQA. It follows a biannual release cadence, freezing core components (e.g. Kernel, DE) while delivering user app updates at a steady pace. Requires some setup such as enabling the proprietary codecs.
+  Modern and U.S. corporate supported, Fedora embraces cutting-edge technologies via its formal Changes Policy, which promotes transparent, documented proposals. Although this rarely causes edge-case bugs, they're caught through testing with openSUSE’s openQA. It follows a biannual release cadence, freezing core components (e.g. Kernel, DE) while delivering user app updates at a steady pace. Requires some setup such as enabling the proprietary codecs.
 
 - **[openSUSE Tumbleweed](https://get.opensuse.org/):**  
   Backed by an E.U. corporation, powerful, intuitive with auto QA tested and up-to-date rock-stable packages. Though feature-rich, it requires some initial setup to some components, such as enabling non-open-source repositories.
+
+- **[Linux Mint](https://linuxmint.com/):**  
+  Stable, GUI-focused and user-friendly. While not flashy, it prioritizes easiness and reliability for simple day-to-day usage, such as browsing and basic apps.
 
 - **[Pop!_OS](https://system76.com/cosmic/):**  
   Sleek and elegant interface, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
