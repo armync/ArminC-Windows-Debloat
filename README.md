@@ -20,7 +20,7 @@
 <tr>
 <td>
 
-An introduction to my methods of configuring the Windows operating system without all of the  **bloat** and **annoying features** whilst trying to keep it **stable** and **functional** in all scenarios.
+An introduction to my methods of configuring the Windows operating system without all of the **bloat** and **annoying features** whilst trying to keep it **stable** and **functional** in all scenarios.
 
 The chosen options should be up to everyone's preference and according to the computer's configuration.
 
@@ -29,6 +29,7 @@ The chosen options should be up to everyone's preference and according to the co
 </table>
 
 ---
+
 #### Short note
 
 Linux has become a <i>strong</i> alternative to Windows, especially in terms of customization. While recent Windows versions are often <b>bloated</b> and <b>overly simplified</b>, Linux interfaces like Cosmic, KDE, and Gnome keep improving with new features and fixes. Linux also enjoys growing support from communities and companies like Valve with their Steam Deck. App compatibility on Linux is largely on par with Windows, thanks to tools like Wine and Proton (excluding <i>certain</i> kernel-based anti-cheat games). Additionally, older applications that no longer work on Windows often run seamlessly on Linux.
@@ -39,28 +40,27 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 <sub>KDE Plasma Desktop</sub>
 </p>
 
+### Notable Linux Distributions
 
-### Notable Linux Distributions  
+- **[Fedora](https://fedoraproject.org/kde):**  
+  Modern and U.S. corporate supported, Fedora embraces cutting-edge technologies via its formal Changes Policy, which promotes transparent, documented proposals (although this can rarely causes edge-case bugs). It follows a biannual release cadence, freezing core components (e.g. Kernel, DE) while delivering user app updates at a steady pace. Requires some setup such as enabling non-open-source repositories.
 
-- **[Fedora](https://fedoraproject.org/kde/):**  
-  Modern and U.S. corporate supported, Fedora embraces cutting-edge technologies via its formal Changes Policy, which promotes transparent, documented proposals. Although this rarely causes edge-case bugs, they're caught through testing with openSUSE’s openQA. It follows a biannual release cadence, freezing core components (e.g. Kernel, DE) while delivering user app updates at a steady pace. Requires some setup such as enabling the proprietary codecs.
+- **[openSUSE Tumbleweed](https://get.opensuse.org):**  
+  Backed by an E.U. corporation, powerful, intuitive with auto QA tested and up-to-date rock-stable packages. Though feature-rich, it requires some initial setup to some components, such as enabling external repositories.
 
-- **[openSUSE Tumbleweed](https://get.opensuse.org/):**  
-  Backed by an E.U. corporation, powerful, intuitive with auto QA tested and up-to-date rock-stable packages. Though feature-rich, it requires some initial setup to some components, such as enabling non-open-source repositories.
-
-- **[Linux Mint](https://linuxmint.com/):**  
+- **[Linux Mint](https://linuxmint.com):**  
   Stable, GUI-focused and user-friendly. While not flashy, it prioritizes easiness and reliability for simple day-to-day usage, such as browsing and basic apps.
 
-- **[Pop!_OS](https://system76.com/cosmic/):**  
+- **[Pop!\_OS](https://system76.com/pop):**  
   Sleek and elegant interface, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
 
-- **[Bazzite](https://bazzite.gg/):**  
+- **[Bazzite](https://bazzite.gg):**  
   An atomic, immutable distro ideal largely for gaming-focused and console-like setups. System changes are limited and reverted with updates, ensuring reliability and consistency for those who seek these controlled adjustments. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
 
-- **[CachyOS](https://cachyos.org/):**  
+- **[CachyOS](https://cachyos.org):**  
   A lightweight Arch-based distro with custom optimizations, schedulers and GUI tools. While snappy, it may face stability issues due to its experimental nature.
 
-- **[EndeavourOS](https://endeavouros.com/):**  
+- **[EndeavourOS](https://endeavouros.com):**  
   Community-driven, based on Arch, featuring very basic tools like an installer and helper. Primarily terminal-centric, vanilla Arch experience. Aimed at advanced users.
 
 > [!IMPORTANT]
@@ -68,10 +68,10 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 
 > [!TIP]
 > Here, some simple and useful facts can be found:
-> 
-> https://www.reddit.com/r/linux_gaming/wiki/faq/
-> 
-> https://linux-gaming.kwindu.eu/
+>
+> https://www.reddit.com/r/linux_gaming/wiki/faq
+>
+> https://linux-gaming.kwindu.eu
 >
 > https://www.youtube.com/@TheLinuxEXP/videos
 
@@ -80,13 +80,14 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 ### Getting Windows
 
 ##### Download
+
 First and foremost, you must obtain the **.iso** image file of Microsoft Windows. There are more variants to choose from:
 
 <ul>
 <li><b>Unofficial</b> pre-built images:</li>
 
 <ol type="i">
-<li><a href="https://forum.rg-adguard.net/forums/windows-11.76/">Assembly</a> based on the original Windows Unified Update Platform, with <b>minimal modifications</b>, such as disabled system requirements check and account creation, integration of the most recent updates, SmartFix and Microsoft DaRT.</li>
+<li><a href="https://forum.rg-adguard.net/forums/windows-11.76">Assembly</a> based on the original Windows Unified Update Platform, with <b>minimal modifications</b>, such as disabled system requirements check and account creation, integration of the most recent updates, SmartFix and Microsoft DaRT.</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rg_adguard.png" width="30%" height="30%">
@@ -94,7 +95,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 <sub>rg adguard assembly</sub>
 </p>
 
-<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159/">Multiple custom builds</a>, be it touched or untouched, including <b>modifications</b> such as disabled system requirements checks or even total reskins (<u>be careful</u>).</li>
+<li><a href="https://www.teamos.xyz/forums/windows-11-x64.159">Multiple custom builds</a>, be it touched or untouched, including <b>modifications</b> such as disabled system requirements checks or even total reskins (<u>be careful</u>).</li>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/teamos.png" width="30%" height="30%">
@@ -153,6 +154,7 @@ First and foremost, you must obtain the **.iso** image file of Microsoft Windows
 </ul>
 
 ##### Create flash drive
+
 If the **.iso** image file has been **completed**, now is the time to create a bootable flash drive. In order to do this, you'll need an utility. There are several ways:
 
 <ol type="i">
@@ -186,7 +188,7 @@ Depending on the chosen settings, the application may ask if you want to **stop 
 
 ### Installing Windows
 
-During the boot, if desired, select an <a href="https://en.wikipedia.org/wiki/European_Economic_Area">EEA country</a> from the <i>Time and Currency format</i>. This will recognise the installation as a <a href="https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area/">Windows Digital Market Act</a> complied version, which shortly, it is a unbloated version. Also, <a href="https://github.com/rcmaehl/MSEdgeRedirect">MSEdgeRedirect</a> tool can be used for *already existing* installations, which changes them to **Europe Mode**. Another tool is <a href="https://github.com/thebookisclosed/ViVe">ViVe</a>.
+During the boot, if desired, select an <a href="https://en.wikipedia.org/wiki/European_Economic_Area">EEA country</a> from the <i>Time and Currency format</i>. This will recognise the installation as a <a href="https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area/">Windows Digital Market Act</a> complied version, which shortly, it is a unbloated version. Also, <a href="https://github.com/rcmaehl/MSEdgeRedirect">MSEdgeRedirect</a> tool can be used for _already existing_ installations, which changes them to **Europe Mode**. Another tool is <a href="https://github.com/thebookisclosed/ViVe">ViVe</a>.
 
 Alternatively, although not so effectively, select <b><language> World</b> from the <i>Time and Currency format</i>. This will proceed with the installation of the operating system without <b>third-party application links</b> in the Start menu. During the setup, configure the out-of-the-box experience (OOBE). In case you encounter the "Something went wrong" error while the wizard attempts to load the region settings, proceed by using the <b>Skip</b> button to bypass the error. Be aware, after installation, you may need to set the <b>Country or region</b> values in settings.
 
@@ -207,14 +209,17 @@ Near the end of the installation, if you haven't downloaded a pre-built image wi
 If you are done with it, now you should prepare the operating system.
 
 ##### The browser
-The first thing on the list is to try and choose the browser. **[Floorp](https://github.com/Floorp-Projects/Floorp)**, **[Waterfox](https://github.com/BrowserWorks/Waterfox)**, **[Zen](https://github.com/zen-browser/desktop)** or even the unforked **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** are the most optimal variants, even speaking of *extension capabilities*. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
+
+The first thing on the list is to try and choose the browser. **[Floorp](https://github.com/Floorp-Projects/Floorp)**, **[Waterfox](https://github.com/BrowserWorks/Waterfox)**, **[Zen](https://github.com/zen-browser/desktop)** or even the unforked **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** are the most optimal variants, even speaking of _extension capabilities_. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
 
 ##### Other apps
-Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/) or even [PeaZip](https://peazip.github.io/) should do it. These are *open-source*.
+
+Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/) or even [PeaZip](https://peazip.github.io/) should do it. These are _open-source_.
 
 For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there is [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html) or [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus). Should **intelligently disables** themselves when resources are needed, like during gaming.
 
 ##### Updates
+
 Optionally, **check all available updates and drivers**, install them, and restart the computer. **Ensure** there are **no** remaining updates. It is **not advisable to disable** or avoid them.
 
 <p align="center">
@@ -228,6 +233,7 @@ Then, if desired, do the same for **Windows Store**, and only after that, **disa
 </p>
 
 ##### Drivers
+
 At times, the main (e.g. graphical) drivers **shouldn't be installed through Windows Updates**, so it's recommended to reinstall them through official means. To uninstall them, use [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html "Display Driver Uninstaller"), where you should **check all "remove"** specific options, and also very importantly, **check the Windows Update prevent download option**. Uninstall every component, restart, and find the latest official installers ([AMD](https://www.amd.com/en/support)/[NVIDIA](https://www.nvidia.com/download/index.aspx)/[INTEL](https://www.intel.com/content/www/us/en/download-center/home.html)).
 
 <p align="center">
@@ -275,14 +281,14 @@ You can also install <b>NVCleanstall</b> on your PC to manage driver installatio
 </ul>
 </li>
 
-
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/nvcleanstall_tweaks.png" width="40%" height="40%">
 </p>
 
 <li>When the <b>installation is complete</b>, there are some settings to adjust.
 
-The primary objective is to enable applications to use their <i>own settings</i> and not be obligated. Techniques established by drivers can occasionally cause instability. Generally, only something that can be externally enabled should be utilized. Any extra  settings (such as Low Latency Mode) should be tailored for each application <b>on a per-application basis</b> (in 3D Settings > Program Settings).
+The primary objective is to enable applications to use their <i>own settings</i> and not be obligated. Techniques established by drivers can occasionally cause instability. Generally, only something that can be externally enabled should be utilized. Any extra settings (such as Low Latency Mode) should be tailored for each application <b>on a per-application basis</b> (in 3D Settings > Program Settings).
+
 </li>
 
 Therefore, first, enable <b>Use advanced 3D image settings</b> and then proceed to <i>Global Settings</i>.
@@ -319,6 +325,7 @@ Therefore, first, enable <b>Use advanced 3D image settings</b> and then proceed 
 | Virtual Reality pre-rendered frames                 | 1/Use the 3D Application setting                         | Controls the number of frames that are rendered ahead of time in VR games. A higher value can help improve performance and reduce stuttering in VR games. Also, a higher value can induce dizziness.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Virtual Reality - Variable Rate Super Sampling      | Adaptive                                                 | Dynamically adjust the super sampling level in VR games. This can help improve performance and reduce stuttering without sacrificing image quality. VRS works by rendering different parts of the scene at different levels of detail. The parts of the scene that are in focus are rendered at a higher level of detail, while the parts of the scene that are not in focus are rendered at a lower level of detail. Always On value uses a fixed super sampling level for all frames. This can provide better image quality, but it can also reduce performance.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Vulkan/OpenGL present method                        | Auto                                                     | Controls how Vulkan and OpenGL games are rendered. Prefer layered on DXGI Swapchain value utilizes a layered DXGI Swapchain for rendering Vulkan and OpenGL games, potentially improving performance but causing stuttering. It treats Vulkan and OpenGL games as if they were DX12 in the final output. While they are still rendered and processed using their original API, the frames are displayed on the monitor through DXGI, allowing Microsoft's new fullscreen optimizations (flip model) to be applied to these APIs. Moreover, Multiplane Overlays (MPOs) can be assigned to Vulkan and OpenGL applications for windowed mode direct present to the monitor, resulting in tearing with v-sync off in windowed mode and reduced input lag overall. Prefer native on DXGI Swapchain value uses the default native DXGI Swapchain, generally considered the best choice for most users.                                                                                                              |
+
 </li>
 
 <li>After everything is set, there is another thing to do. Toggle <b>RTX Video Super Resolution</b>, which is a technology that uses AI to upscale lower resolution video to near-native quality.
@@ -329,11 +336,9 @@ VSR works by using the <i>Tensor Cores</i> to analyze each frame of the video an
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/rtx_vsr.png" width="40%" height="40%">
 </p>
 
-
 </ol>
 
 Furthermore, for <b>AMD-enabled GPUs</b>, there is no identical replacement. Their official installer has very few bloated components, making it unnecessary to unbloat it. But still, the closest available alternative in terms of operating mechanism would be [RadeonSoftwareSlimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer), which is pretty straight-forward.
-
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/radeon_software_slimmer.png" width="60%" height="60%">
@@ -393,7 +398,7 @@ The first part includes taskbar configuration as previously discussed. [StartAll
 
 Next, the further step will consist in downloading of [RainMeter](https://www.rainmeter.net) <i>customization tool</i>. It allows enabling different design modules, called 'skins' on the desktop workspace. Templates may be [found here](https://www.rainmeter.net/discover/).
 
-The lake landscape wallpaper can be [downloaded here](https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/rice/your_name_landscape_wallpaper.png). Now, the date and time skin used is [River](https://www.deviantart.com/catart-1304/art/River-0-1-Cat-Art-ft-Luna-Hibiki-917665182). It has a manually placement near top-left area. You may install the font from skin's @Resource directory (see the folder path from manager). The included resource monitor is placed at bottom-right. The shorcuts such as 'This PC', 'Recycle Bin' aren't used in their classical way but, instead, are used in a fancy [Quantum dock](https://github.com/nitesh-prasad/Quantum-Dock). Now, this one is (even more) customizable through an configuration file. Don't forget to disable the default icons on the Desktop at Settings > Personalization > Themes > Desktop icon settings. The [icons](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/windows7_aero_shell)  are custom (must be placed in correct directory). Dock's preset configuration may be directly replaced with the [custom one](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/quantum_dock). Optionally, the River skin has as default drive, the Disk D: instead of C:, which is the most common one. Get the modified [config here](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/river).
+The lake landscape wallpaper can be [downloaded here](https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/rice/your_name_landscape_wallpaper.png). Now, the date and time skin used is [River](https://www.deviantart.com/catart-1304/art/River-0-1-Cat-Art-ft-Luna-Hibiki-917665182). It has a manually placement near top-left area. You may install the font from skin's @Resource directory (see the folder path from manager). The included resource monitor is placed at bottom-right. The shorcuts such as 'This PC', 'Recycle Bin' aren't used in their classical way but, instead, are used in a fancy [Quantum dock](https://github.com/nitesh-prasad/Quantum-Dock). Now, this one is (even more) customizable through an configuration file. Don't forget to disable the default icons on the Desktop at Settings > Personalization > Themes > Desktop icon settings. The [icons](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/windows7_aero_shell) are custom (must be placed in correct directory). Dock's preset configuration may be directly replaced with the [custom one](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/quantum_dock). Optionally, the River skin has as default drive, the Disk D: instead of C:, which is the most common one. Get the modified [config here](https://github.com/ArmynC/ArminC-Windows-Debloat/tree/main/rice/river).
 
 At the end of customization process, do open the RainMeter <i>manager</i> and for each skin <i>.ini</i> file, disable the <b>draggable</b> attribute to avoid messing them up. Even more, to avoid having the desktop files, if renamed or modified, automatically placed in the dock's corner space by Windows, go to Settings > Personalization > Start and deactivate 'Show recently opened items in Start, Jump Lists, and File Explorer' option.
 
@@ -403,13 +408,14 @@ The start button, called 'Orb' may be modified using a specialized tool. StartAl
 <img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/start_orb.png" width="30%" height="30%">
 </p>
 
-Some other models can be found [on generic deviations](https://www.deviantart.com/search/deviations?q=start+orb) or [in gallery](https://www.deviantart.com/customizewindows/gallery/26574485/start-orbs). Please be aware that the required orbs aren't some generic pngs, but rather a three layer state image. 
+Some other models can be found [on generic deviations](https://www.deviantart.com/search/deviations?q=start+orb) or [in gallery](https://www.deviantart.com/customizewindows/gallery/26574485/start-orbs). Please be aware that the required orbs aren't some generic pngs, but rather a three layer state image.
 
 #### Other apps
 
 These apps are optional, or some of them may be included in the operating system.
 
 ##### OS Runtime
+
 - [Microsoft Visual C++ Redistributable](https://github.com/abbodi1406/vcredist)
 - [Microsoft DirectX Legacy](https://www.microsoft.com/en-us/download/details.aspx?id=8109)
 - [.NET Framework 3.5](https://learn.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows)
@@ -418,53 +424,59 @@ These apps are optional, or some of them may be included in the operating system
 - [Java](https://www.java.com/download/ie_manual.jsp)
 
 ##### Tools
+
 - [Revo Uninstaller](https://www.revouninstaller.com/) or [BCUninstaller](https://github.com/Klocman/Bulk-Crap-Uninstaller)
 - [IObit Unlocker](https://www.iobit.com/en/iobit-unlocker.php)
-- [qBittorent](https://www.qbittorrent.org/)
-- [WinCDEmu](https://wincdemu.sysprogs.org/)
-- [Parsec](https://parsec.app/)
+- [qBittorent](https://www.qbittorrent.org)
+- [WinCDEmu](https://wincdemu.sysprogs.org)
+- [Parsec](https://parsec.app)
 - [WingetUI](https://github.com/martinet101/WingetUI)
 - [Dimmer](https://www.nelsonpires.com/software/dimmer)
 - [/cracksurl](https://cracksurl.com/)
 - [WizTree](https://diskanalyzer.com/) or [TreeSize](https://www.jam-software.com/treesize_free)
-- [WizFile]( https://antibody-software.com/wizfile/) or [UltraSearch](https://www.jam-software.com/ultrasearch)
+- [WizFile](https://antibody-software.com/wizfile) or [UltraSearch](https://www.jam-software.com/ultrasearch)
 - [Upscaly](https://github.com/upscayl/upscayl)
-- [Wondershare PDFelement](https://pdf.wondershare.com/)
+- [Wondershare PDFelement](https://pdf.wondershare.com)
 - [VMWare Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
-- [FileCentipede](https://github.com/filecxx/FileCentipede) or [Internet Download Manager](https://www.internetdownloadmanager.com)
+- [AB Download Manager](https://github.com/amir1376/ab-download-manager) or [Brisk](https://github.com/BrisklyDev/brisk)
 - [/megathread_resources](https://old.reddit.com/r/Piracy/wiki/megathread)
 - [/fmhy](https://fmhy.net/)
 - [System Informer](https://github.com/winsiderss/systeminformer)
 - [AppGroup](https://github.com/iandiv/AppGroup)
-  
+
 ##### Tweaks
+
 - [LowAudioLatency](https://github.com/spddl/LowAudioLatency)
 - [Noise Suppression Plugin](https://github.com/werman/noise-suppression-for-voice) and [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) + [plugins](https://www.youtube.com/watch?v=vXuAwpt4WsQ)
-- [ProcessLasso](https://bitsum.com) (complex tool, research required)
+- [ProcessLasso](https://bitsum.com)
 
 ##### Media
+
 - [Spotify-X](https://github.com/amd64fox/SpotX)
-- [Stremio](https://www.stremio.com) / [Stremio Fork-Fix](https://github.com/Zaarrg/stremio-desktop-v5) and [Stremio Addons](https://stremio-addons.com)
-- [Bluetooth Audio Receiver](https://apps.microsoft.com/store/detail/bluetooth-audio-receiver)
+- [Stremio](https://www.stremio.com) / [Stremio Fork-Fix](https://github.com/Zaarrg/stremio-desktop-v5) and [Stremio Addons](https://stremio-addons.net)
 - [mpvnet media player](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
+- [Topaz Photo](www.topazlabs.com/topaz-photo)
 
 ##### Development
+
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Visual Studio](https://visualstudio.microsoft.com)
 - [GitHub](https://desktop.github.com)
 - [Office](https://forums.mydigitallife.net/threads/office-r-tool-the-new-era.84450)
-- [Beyond Compare](https://www.scootersoftware.com/download.php)
-- [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) or [Trilium Next](https://github.com/TriliumNext/Notes) or [Joplin](https://joplinapp.org/) or [QOwnNotes](https://github.com/pbek/QOwnNotes) or [AFFiNE](https://github.com/toeverything/AFFiNE) or [Notes](https://github.com/nuttyartist/notes)
+- [Beyond Compare](https://www.scootersoftware.com/home)
+- [Trilium Next](https://github.com/TriliumNext/Notes) or [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) or [AnyType](https://anytype.io) or [SiYuan](https://github.com/siyuan-note/siyuan) or [Joplin](https://joplinapp.org) or [QOwnNotes](https://github.com/pbek/QOwnNotes) or [Notes](https://github.com/nuttyartist/notes)
 - [Xounral++](https://github.com/xournalpp/xournalpp) or [Excalidraw](https://excalidraw.com) or [RNote](https://github.com/flxzt/rnote) or [Butterfly](https://github.com/LinwoodDev/Butterfly) or [Saber](https://github.com/saber-notes/saber)
 - [Pomatez](https://github.com/zidoro/pomatez) or [FocusTide](https://focustide.app)
 
 ##### Communication
+
 - [Discord](https://discord.com) and [Vencord](https://vencord.dev)
 - [Teams](https://www.microsoft.com/en-ww/microsoft-teams/download-app)
-- [Cinny](https://github.com/cinnyapp/cinny-desktop)
+- [Element](https://element.io) or [Cinny](https://github.com/cinnyapp/cinny-desktop)
 
 ##### Games
+
 - [Steam](https://store.steampowered.com/about)
 - [Heroic Launcher](https://heroicgameslauncher.com)
 - [Flashpoint](https://flashpointarchive.org)
@@ -502,13 +514,13 @@ These apps are optional, or some of them may be included in the operating system
 - [FastStream](https://github.com/Andrews54757/FastStream)
 
 ###### Youtube:
+
 - [YouTube Enhancer](https://github.com/YouTube-Enhancer/extension) or [YouTube Redux](https://addons.mozilla.org/en-US/firefox/addon/youtube-redux)
 - [Return YouTube Dislikes](https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes)
 - [Thumbnail Rating Bar for YouTube](https://addons.mozilla.org/en-US/firefox/addon/youtube-thumbnail-rating-bar)
 - [YouTooltip](https://addons.mozilla.org/en-US/firefox/addon/youtooltip)
 - [Watchmarker for YouTube](https://addons.mozilla.org/en-US/firefox/addon/watchmarker-for-youtube)
-- [Better YouTube Shorts](https://addons.mozilla.org/en-US/firefox/addon/better-youtube-shorts)
-- [YouTube NonStop](https://addons.mozilla.org/en-US/firefox/addon/youtube-nonstop)
+- [Youtube Shorts block](https://addons.mozilla.org/en-US/firefox/addon/youtube-shorts-block/)
 
 ## Support
 
