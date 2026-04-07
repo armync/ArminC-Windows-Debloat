@@ -42,17 +42,17 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 
 ### Notable Linux Distributions
 
+- **[openSUSE Tumbleweed](https://get.opensuse.org):**  
+  Backed by an E.U. corporation, powerful, intuitive with auto QA tested and up-to-date rock-stable packages. Though feature-rich, it requires some initial setup to some components, such as enabling external repositories and codecs.
+
 - **[Fedora](https://fedoraproject.org/kde):**  
   Modern and U.S. corporate supported, Fedora embraces cutting-edge technologies via its formal Changes Policy, which promotes transparent, documented proposals (although this can rarely causes edge-case bugs). It follows a biannual release cadence, freezing core components (e.g. Kernel, DE) while delivering user app updates at a steady pace. Requires some setup such as enabling non-open-source repositories.
-
-- **[openSUSE Tumbleweed](https://get.opensuse.org):**  
-  Backed by an E.U. corporation, powerful, intuitive with auto QA tested and up-to-date rock-stable packages. Though feature-rich, it requires some initial setup to some components, such as enabling external repositories.
 
 - **[Linux Mint](https://linuxmint.com):**  
   Stable, GUI-focused and user-friendly. While not flashy, it prioritizes easiness and reliability for simple day-to-day usage, such as browsing and basic apps.
 
 - **[Pop!\_OS](https://system76.com/pop):**  
-  Sleek and elegant interface, designed for a smooth user experience. It prioritizes stability by avoiding zero-day updates.
+  Sleek and elegant interface, designed for a modern user experience through their COSMIC desktop environment.
 
 - **[Bazzite](https://bazzite.gg):**  
   An atomic, immutable distro ideal largely for gaming-focused and console-like setups. System changes are limited and reverted with updates, ensuring reliability and consistency for those who seek these controlled adjustments. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
@@ -434,8 +434,8 @@ These apps are optional, or some of them may be included in the operating system
 - [Dimmer](https://www.nelsonpires.com/software/dimmer)
 - [/cracksurl](https://cracksurl.com/)
 - [WizTree](https://diskanalyzer.com/) or [TreeSize](https://www.jam-software.com/treesize_free)
-- [WizFile](https://antibody-software.com/wizfile) or [UltraSearch](https://www.jam-software.com/ultrasearch)
-- [Upscaly](https://github.com/upscayl/upscayl)
+- [WizFile](https://antibody-software.com/wizfile) or [UltraSearch](https://www.jam-software.com/ultrasearch) or [Everything](https://www.voidtools.com/)
+- [Upscayl](https://github.com/upscayl/upscayl)
 - [Wondershare PDFelement](https://pdf.wondershare.com)
 - [VMWare Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
 - [AB Download Manager](https://github.com/amir1376/ab-download-manager) or [Brisk](https://github.com/BrisklyDev/brisk)
@@ -456,7 +456,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Stremio](https://www.stremio.com) / [Stremio Fork-Fix](https://github.com/Zaarrg/stremio-desktop-v5) and [Stremio Addons](https://stremio-addons.net)
 - [mpvnet media player](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
-- [Topaz Photo](www.topazlabs.com/topaz-photo)
+- [Topaz Photo](https://www.topazlabs.com/topaz-photo)
 
 ##### Development
 
@@ -512,6 +512,8 @@ These apps are optional, or some of them may be included in the operating system
 - [Read Aloud](https://addons.mozilla.org/en-US/firefox/addon/read-aloud) (/w Piper danny or alba-medium English)
 - [AI Blocker](https://addons.mozilla.org/en-US/firefox/addon/ai-blocker)
 - [FastStream](https://github.com/Andrews54757/FastStream)
+- [Sponsorblock](https://sponsor.ajay.app)
+- [DeArrow](https://addons.mozilla.org/firefox/addon/dearrow)
 
 ###### Youtube:
 
