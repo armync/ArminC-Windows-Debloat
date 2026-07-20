@@ -42,11 +42,14 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 
 ### Notable Linux Distributions
 
-- **[openSUSE Tumbleweed](https://get.opensuse.org):**  
+- **[openSUSE Tumbleweed](https://get.opensuse.org/desktop/):**  
   Backed by an E.U. corporation, powerful, intuitive with auto QA tested and up-to-date rock-stable packages. Though feature-rich, it requires some initial setup to some components, such as enabling external repositories and codecs.
 
 - **[Fedora](https://fedoraproject.org/kde):**  
   Modern and U.S. corporate supported, Fedora embraces cutting-edge technologies via its formal Changes Policy, which promotes transparent, documented proposals (although this can rarely causes edge-case bugs). It follows a biannual release cadence, freezing core components (e.g. Kernel, DE) while delivering user app updates at a steady pace. Requires some setup such as enabling non-open-source repositories.
+
+- **[Ultramarine](https://ultramarine-linux.org/):**  
+  Preconfigured Fedora distribution with additional repos, codecs and drivers. It packs modified defaults for the average user. Also, it follows Fedora cadence, testing the big updates before deploying them.Has semi-rolling updates trough custom repos. Favorizes stability.
 
 - **[Linux Mint](https://linuxmint.com):**  
   Stable, GUI-focused and user-friendly. While not flashy, it prioritizes easiness and reliability for simple day-to-day usage, such as browsing and basic apps.
@@ -58,7 +61,7 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
   An atomic, immutable distro ideal largely for gaming-focused and console-like setups. System changes are limited and reverted with updates, ensuring reliability and consistency for those who seek these controlled adjustments. [Universal Blue](https://universal-blue.org/) also offers other immutable Linux distributions tailored for various purposes.
 
 - **[CachyOS](https://cachyos.org):**  
-  A lightweight Arch-based distro with custom optimizations, schedulers and GUI tools. While snappy, it may face stability issues due to its experimental nature.
+  A lightweight Arch-based distro with custom optimizations, schedulers and GUI tools. While snappy, it may face infrequent stability issues due to its experimental nature.
 
 - **[EndeavourOS](https://endeavouros.com):**  
   Community-driven, based on Arch, featuring very basic tools like an installer and helper. Primarily terminal-centric, vanilla Arch experience. Aimed at advanced users.
@@ -74,6 +77,8 @@ Linux has become a <i>strong</i> alternative to Windows, especially in terms of 
 > https://linux-gaming.kwindu.eu
 >
 > https://www.youtube.com/@TheLinuxEXP/videos
+>
+> https://thelinuxbook.com
 
 ---
 
@@ -168,10 +173,10 @@ If the **.iso** image file has been **completed**, now is the time to create a b
 
 Depending on the chosen settings, the application may ask if you want to **stop the Windows requirement checks**.
 
-<li><a href="https://www.ventoy.net/en/index.html">Ventoy</a> is an utility that creates a bootable USB, by <i>directly booting</i> the .iso file without the need for the USB to be formatted. In some specific Unix scenarios, it can alter the boot parameters of the .iso file. If no action is taken, it may bug the installation.</li>
+<li><a href="https://github.com/Mexit/MultiOS-USB">MultiOS-USB</a> is an utility that creates a bootable USB, by <i>directly booting</i> the .iso file without the need for the USB to be formatted. Also there is <a href="https://www.ventoy.net/en/index.html">Ventoy</a> which is the popular choice, but it has some BLOBs security issues to be considered. Furthermore, in some specific Unix scenarios, it can alter the boot parameters of the iso file. If no action is taken, it may bug the installation.</li>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/ventoy_bios.png" width="40%" height="40%">
+<img src="https://raw.githubusercontent.com/ArmynC/ArminC-Windows-Debloat/main/img/multios-usb.png" width="40%" height="40%">
 <br>
 <sub>Ventoy</sub>
 </p>
@@ -210,13 +215,13 @@ If you are done with it, now you should prepare the operating system.
 
 ##### The browser
 
-The first thing on the list is to try and choose the browser. **[Floorp](https://github.com/Floorp-Projects/Floorp)**, **[Waterfox](https://github.com/BrowserWorks/Waterfox)**, **[Zen](https://github.com/zen-browser/desktop)** or even the unforked **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** are the most optimal variants, even speaking of _extension capabilities_. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
+The first thing on the list is to try and choose the browser. **[Firefox](https://www.mozilla.org/en-US/firefox/developer/)** + **[BetterFox](https://github.com/yokoffing/Betterfox)**, **[Waterfox](https://github.com/BrowserWorks/Waterfox)**, **[Floorp](https://github.com/Floorp-Projects/Floorp)** or **[Zen](https://github.com/zen-browser/desktop)** or even the unforked are the most optimal variants, even speaking of _extension capabilities_. About that, see my [uBlock Settings](https://github.com/ArmynC/ArminC-uBlock-Settings). Check other extensions too.
 
 ##### Other apps
 
 Next, for all the other steps, you'll need a file archiver. [NanaZip](https://github.com/M2Team/NanaZip), unforked [7-Zip](https://www.7-zip.org/) or even [PeaZip](https://peazip.github.io/) should do it. These are _open-source_.
 
-For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As options there is [BitDefender (Free)](https://www.bitdefender.com/solutions/free.html) or [Kaspersky Security Cloud (Free)](https://www.kaspersky.com/free-antivirus). Should **intelligently disables** themselves when resources are needed, like during gaming.
+For peace of mind, it is a good habit to **install an antivirus**. Depending on your Windows image, the default one, **Defender** should be good enough. In other considerations, it may be removed, disabled, or not working at all. As alternative there is [BitDefender Antivirus](https://www.bitdefender.com/solutions/free.html). Should **intelligently disables** itself when resources are needed, as during gaming.
 
 ##### Updates
 
@@ -430,31 +435,32 @@ These apps are optional, or some of them may be included in the operating system
 - [qBittorent](https://www.qbittorrent.org)
 - [WinCDEmu](https://wincdemu.sysprogs.org)
 - [Parsec](https://parsec.app)
-- [WingetUI](https://github.com/martinet101/WingetUI)
+- [UniGetUI](https://github.com/Devolutions/UniGetUI)
 - [Dimmer](https://www.nelsonpires.com/software/dimmer)
 - [/cracksurl](https://cracksurl.com/)
 - [WizTree](https://diskanalyzer.com/) or [TreeSize](https://www.jam-software.com/treesize_free)
 - [WizFile](https://antibody-software.com/wizfile) or [UltraSearch](https://www.jam-software.com/ultrasearch) or [Everything](https://www.voidtools.com)
 - [Upscayl](https://github.com/upscayl/upscayl)
 - [Wondershare PDFelement](https://pdf.wondershare.com)
-- (PDF-XChange)(https://pdf-xchange.com/product/pdf-xchange-editor)
+- [PDF-XChange](https://pdf-xchange.com/product/pdf-xchange-editor)
 - [VMWare Workstation](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro)
 - [AB Download Manager](https://github.com/amir1376/ab-download-manager) or [Brisk](https://github.com/BrisklyDev/brisk)
 - [/megathread_resources](https://old.reddit.com/r/Piracy/wiki/megathread)
 - [/fmhy](https://fmhy.net/)
 - [System Informer](https://github.com/winsiderss/systeminformer)
 - [AppGroup](https://github.com/iandiv/AppGroup)
+- [MobaXterm](https://mobaxterm.mobatek.net)
 
 ##### Tweaks
 
 - [LowAudioLatency](https://github.com/spddl/LowAudioLatency)
-- [Noise Suppression Plugin](https://github.com/werman/noise-suppression-for-voice) and [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) + [plugins](https://www.youtube.com/watch?v=vXuAwpt4WsQ)
+- [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) with [Noise Suppression Plugin](https://github.com/werman/noise-suppression-for-voice) + [plugins](https://www.youtube.com/watch?v=vXuAwpt4WsQ)
 - [ProcessLasso](https://bitsum.com)
 
 ##### Media
 
 - [Spotify-X](https://github.com/amd64fox/SpotX)
-- [Stremio](https://stremio.com) / [Stremio Kai](https://github.com/allecsc/Stremio-Kai) / [Stremio Enhanced](https://github.com/REVENGE977/stremio-enhanced) and [Stremio Addons](https://stremio-addons.net)
+- [Harbor](https://www.harbor.site), [Nuvio](https://nuvio.tv), [Stremio](https://stremio.com) | [Stremio Addons](https://stremio-addons.net)
 - [mpvnet media player](https://github.com/mpvnet-player/mpv.net) - ([cfg](https://github.com/ArmynC/ArminC-Windows-Debloat/blob/main/pref/mpv.net)) or [mpv media player](https://mpv.io/) and [mpv menu plugin](https://github.com/tsl0922/mpv-menu-plugin)
 - [nomacs Image Viewer](https://github.com/nomacs/nomacs)
 - [Topaz Photo](https://topazlabs.com/topaz-photo)
@@ -470,6 +476,7 @@ These apps are optional, or some of them may be included in the operating system
 - [Trilium Next](https://github.com/TriliumNext/Notes) or [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) or [AnyType](https://anytype.io) or [SiYuan](https://github.com/siyuan-note/siyuan) or [Joplin](https://joplinapp.org) or [QOwnNotes](https://github.com/pbek/QOwnNotes) or [Notes](https://github.com/nuttyartist/notes)
 - [Xounral++](https://github.com/xournalpp/xournalpp) or [Excalidraw](https://excalidraw.com) or [RNote](https://github.com/flxzt/rnote) or [Butterfly](https://github.com/LinwoodDev/Butterfly) or [Saber](https://github.com/saber-notes/saber)
 - [Pomatez](https://github.com/zidoro/pomatez) or [FocusTide](https://focustide.app)
+- [Anki](https://apps.ankiweb.net)
 
 ##### Communication
 
@@ -516,6 +523,7 @@ These apps are optional, or some of them may be included in the operating system
 - [FastStream](https://github.com/Andrews54757/FastStream)
 - [Sponsorblock](https://sponsor.ajay.app)
 - [DeArrow](https://addons.mozilla.org/firefox/addon/dearrow)
+- [Remove Paywalls](https://addons.mozilla.org/en-US/firefox/addon/remove-paywalls)
 
 ###### Youtube:
 
