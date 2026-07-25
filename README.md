@@ -524,6 +524,9 @@ These apps are optional, or some of them may be included in the operating system
 - [Sponsorblock](https://sponsor.ajay.app)
 - [DeArrow](https://addons.mozilla.org/firefox/addon/dearrow)
 - [Remove Paywalls](https://addons.mozilla.org/en-US/firefox/addon/remove-paywalls)
+- [SharpViewer](https://addons.mozilla.org/en-US/firefox/addon/sharpviewer)
+- [Allkeyshop](https://addons.mozilla.org/en-US/firefox/addon/allkeyshop-compare-game-prices)
+- [Medium parser](https://addons.mozilla.org/en-US/firefox/addon/medium-parser)
 
 ###### Youtube:
 
